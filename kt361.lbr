@@ -87,7 +87,7 @@ TRANSISTOR</text>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="KT361">
+<deviceset name="KT361" prefix="Q">
 <description>Soviet NPN transistor KT361 (A ... K)</description>
 <gates>
 <gate name="G$1" symbol="KT361" x="0" y="0"/>
