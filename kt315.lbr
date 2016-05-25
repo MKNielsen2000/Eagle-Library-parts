@@ -59,9 +59,6 @@
 <packages>
 <package name="KT315">
 <description>Soviet NPN transistor KT315 (A ... и)</description>
-<smd name="COLLECTOR" x="0" y="0" dx="1.27" dy="0.6604" layer="1" rot="R90"/>
-<smd name="BASE" x="0" y="2.5" dx="1.27" dy="0.6604" layer="1" rot="R90"/>
-<smd name="EMITTER" x="0" y="-2.5" dx="1.27" dy="0.6604" layer="1" rot="R90"/>
 <wire x1="-1.5" y1="3.6" x2="1.5" y2="3.6" width="0.127" layer="21"/>
 <wire x1="1.5" y1="3.5" x2="1.5" y2="-3.6" width="0.127" layer="21"/>
 <wire x1="1.5" y1="-3.6" x2="-1.1" y2="-3.6" width="0.127" layer="21"/>
@@ -70,6 +67,9 @@
 <wire x1="-1.1" y1="3.4" x2="-1.1" y2="-3.6" width="0.127" layer="21"/>
 <text x="-2" y="4.5" size="1.27" layer="25">KT315</text>
 <text x="-2.1" y="-5.6" size="1.27" layer="27">NPN</text>
+<pad name="BASEPAD" x="0" y="2.5" drill="1.5" diameter="1.6764" shape="square"/>
+<pad name="COLLECTORPAD" x="0" y="0" drill="1.5" diameter="1.6764" shape="square"/>
+<pad name="EMITTERPAD" x="0" y="-2.5" drill="1.5" diameter="1.6764" shape="square"/>
 </package>
 </packages>
 <symbols>
@@ -95,9 +95,9 @@ TRANSISTOR</text>
 <devices>
 <device name="" package="KT315">
 <connects>
-<connect gate="G$1" pin="BASE" pad="BASE"/>
-<connect gate="G$1" pin="COLLECTOR" pad="COLLECTOR"/>
-<connect gate="G$1" pin="EMITTER" pad="EMITTER"/>
+<connect gate="G$1" pin="BASE" pad="BASEPAD"/>
+<connect gate="G$1" pin="COLLECTOR" pad="COLLECTORPAD"/>
+<connect gate="G$1" pin="EMITTER" pad="EMITTERPAD"/>
 </connects>
 <technologies>
 <technology name=""/>
