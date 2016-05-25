@@ -129,7 +129,7 @@
 <description>Library part for the PJ302M horizontal / right angled mount 3.5 mm jack socket available from Thonk.co.uk among others.</description>
 <pad name="GND" x="2.5" y="0" drill="2.3" diameter="3.3" shape="octagon" rot="R270"/>
 <pad name="SW" x="13.5" y="-5.2" drill="2.3" diameter="3.3" shape="octagon"/>
-<pad name="TIP" x="15.8" y="0.2" drill="2.3" diameter="3.3" shape="octagon" rot="R90"/>
+<pad name="TIP" x="15.7" y="0.2" drill="2.3" diameter="3.3" shape="octagon" rot="R90"/>
 <text x="0" y="5.5" size="1.27" layer="25">&gt;NAME</text>
 <wire x1="15.5" y1="-5" x2="0" y2="-5" width="0.127" layer="51"/>
 <wire x1="0" y1="-5" x2="0" y2="-3" width="0.127" layer="51"/>
